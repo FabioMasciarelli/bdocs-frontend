@@ -29,14 +29,16 @@ export default {
 .hero {
     margin-top: 100px;
     width: 100%;
-    height: 600px;
-    background-image: url(../assets/img/nursing3.jpg);
-    background-size: cover;
+    height: 90vh;
+    background-image: url(../assets/img/nursing4.jpg);
+    background-position: left;
+    background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
-    align-items: end;
+    justify-content: center;
+    align-items: start;
 }
 
 /* Sezione di benvenuto */
